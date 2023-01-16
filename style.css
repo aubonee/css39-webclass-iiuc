@@ -1,0 +1,32 @@
+.Css-Animation {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-image: linear-gradient(to top, rgb(250, 160, 96), white, rgb(203, 167, 243));
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 200px;
+    }
+}
+
+.Css-transition {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(79, 77, 77, 0.7);
+    transition: 2s;
+    margin: 5px;
+}
+
+.Css-transition:hover {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(79, 77, 77, 0.9);
+}
